@@ -211,6 +211,9 @@
                             <a href="{links/link[@rel='download']/@href}">
                                 <xsl:value-of select="name"/>
                             </a>
+                            <a href="{links/link[@rel='delete']/@href}">
+                                <xsl:value-of select="name"/>
+                            </a>
                             <xsl:text> (</xsl:text>
                             <xsl:value-of select="ctype"/>
                             <xsl:text>)</xsl:text>
